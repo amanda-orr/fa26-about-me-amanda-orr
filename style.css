@@ -1,0 +1,30 @@
+body{
+    font-family:'IBM Plex Serif';
+    background-color:#D7A371;
+    color: #1D3A42;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"PT Serif";
+    font-size: 40pt; 
+}
+
+header{
+    text-align:center;
+}
+    
+    #hero, footer{
+    color:#B0EEFF;
+    border: 2px solid #1D3A42;
+    background-color:#196B82;
+    text-align:center; 
+    padding: 20px; 
+}
+
+#hero img{
+    width: 300px;
+}
+
+#bio{
+    text-align:center
+}
