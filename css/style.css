@@ -6,7 +6,11 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family:"PT Serif";
-    font-size: 40pt; 
+    text-align:center; 
+
+}
+h1{
+    font-size: 40pt;
 }
 
 header{
@@ -22,9 +26,44 @@ header{
 }
 
 #hero img{
-    width: 400px; 
+    width: 200px; 
 }
 
 #bio{
     text-align:center
+}
+#hobbies{
+    text-align:center;
+    padding: 40px;
+    border: 2px solid #1D3A42;
+    background-color: #196B82;
+    border-radius: 0px;
+    margin: 30px auto;
+    max-width: 900px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.hobbies-list li:nth-child(1)::before {
+    content: "🥾 ";
+}.hobbies-list li:nth-child(2)::before {
+    content: "🎉 ";
+}
+
+.hobbies-list li:nth-child(3)::before {
+    content: "✈️ ";
+}
+#hobbies li:nth-child(4)::before {
+    content: "🎵 ";
+}
+
+#hobbies li:nth-child(5)::before {
+    content: "👨‍👩‍👧‍👦 ";
+}
+.hobbies-list li:nth-child(6)::before {
+    content: "👩‍🍳 ";
+}
+
+    #hobbies ul {
+    list-style: none;
+    padding: 0;
 }
