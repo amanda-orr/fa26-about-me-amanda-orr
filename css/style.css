@@ -67,3 +67,34 @@ header{
     list-style: none;
     padding: 0;
 }
+#gallery{ 
+    border: 2px solid #196B82;
+    margin-bottom: 2rem;
+}
+#gallery img{
+    max-width: 100%;
+}
+#gallery figure{
+    text-align: center;
+}
+#lit{
+    border: 2px solid #196B82;
+    margin-bottom: 2rem;
+}
+#lit div{
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto; 
+}
+#lit div p{
+    padding: 0.2rem 0;
+
+}
+#lit p::first-letter {
+    font-family: "UnifrakturCook", cursive;
+    font-size: 1.3rem;
+    color: #1D3A42;
+    border: 1px solid #1D3A42;
+    padding: 1px 2px;
+    margin-right: 4px;
+}
