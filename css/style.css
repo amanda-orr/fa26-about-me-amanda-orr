@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6{
     text-align:center; 
 
 }
+h2{
+    margin: 1em; 
+}
 h1{
     font-size: 40pt;
 }
@@ -43,6 +46,11 @@ header{
     color: white;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
+section #hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .hobbies-list li:nth-child(1)::before {
     content: "🥾 ";
 }.hobbies-list li:nth-child(2)::before {
@@ -71,11 +79,22 @@ header{
     border: 2px solid #196B82;
     margin-bottom: 2rem;
 }
+#gallery h2{
+    text-align:center;
+
+}
 #gallery img{
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 #gallery figure{
     text-align: center;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid #aaa;
 }
 #lit{
     border: 2px solid #196B82;
@@ -97,4 +116,29 @@ header{
     border: 1px solid #1D3A42;
     padding: 1px 2px;
     margin-right: 4px;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 60em) {
+ figure{
+    display:grid;
+        grid-template-columns: 2fr 1fr
+    }
+} 
+figcaption{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.25rem;
+margin: 0.5rem;
+border-left: 1px solid #aaa;
+}
+#gallery figure img {
+        height: auto;
+    }
+#gallery figcaption {
+        border-left: none;
+        border-top: 1px solid #aaa;
 }
