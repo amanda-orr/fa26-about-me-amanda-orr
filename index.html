@@ -77,20 +77,72 @@
                 <p>The summer months passed while I was thus engaged, heart and soul, in one pursuit. It was a most beautiful season; never did the fields bestow a more plentiful harvest or the vines yield a more luxuriant vintage, but my eyes were insensible to the charms of nature. And the same feelings which made me neglect the scenes around me caused me also to forget those friends who were so many miles absent.</p>
             </div>
         </article>
-    </main>
-
-    <footer>
-       ©2026 Fatima A. Ortiz
-    </footer>
-</body>
-</html>
-<section id="video">
+        <section id="video">
     <h2>A Short Video:</h2>
     <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/iJjx0T3_pnQ?si=vKFcRoe_axyt-e43" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-src=YOUR-VIDEO-LINK"
-width="560"
-height="315"
+
 </iframe>
 <p class="video-caption">This is my Midterm Website Project</p>
+        </section>
+   
+<section id="contact">
+    <h2>Contact Me</h2>
+
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="e9811453-16ac-4a80-8a53-f7305ad87164">
+
+<input type="hidden" name="subject" value="New message from my About Me page">
+
+<input type="hidden" name="redirect" value="https://rvcc-grid.github.io/fat26-about-me-amanda-orr/thanks.html">
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="phone-type">Type of Phone:</label>
+            <select id="phone-type" name="phone-type">
+                <option value="mobile">Mobile</option>
+                <option value="home">Home</option>
+                <option value="work">Work</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <p>Would you like a follow-up?</p>
+            <ul>
+                <li>
+                    <input type="radio" id="yes" name="followup" value="yes">
+                    <label for="yes">Yes</label>
+                </li>
+                <li>
+                    <input type="radio" id="no" name="followup" value="no">
+                    <label for="no">No</label>
+                </li>
+            </ul>
+
+            <div data-class="h-captcha" data-captcha="true"></div>
+            
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
 </section>
+
+    </main>
+
+<footer>
+       ©2026 Fatima A. Ortiz
+    
+    </footer>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    
+</body>
+</html>
 
